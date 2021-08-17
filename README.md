@@ -1,9 +1,9 @@
 ﻿# WikiTube_API
  
  Things you can do:
-  -Search for a video and get the top 5 results rendered on screen
-  -Watch the video you like
-  -On each search you make, you get the Wikipedia definition of the word searched
+  Search for a video and get the top 5 results rendered on screen,
+  Watch the video you like,
+  On each search you make, you get the Wikipedia definition of the word searched
   
  Responsive app built with vanilla JavaScript and uses the YouTube API and the Wikipedia API.
  
