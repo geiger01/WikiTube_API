@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: rgb(46, 46, 46);
+  width: 70%;
+  margin: auto;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+.logo {
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: rgb(192, 197, 202);
+}
+
+.logo span {
+  color: rgb(143, 221, 160);
+}
+
+.main-container {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+}
+
+.main-container input {
+  height: 2rem;
+  width: 30rem;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  font-size: 1.2rem;
+}
+
+iframe {
+  margin-top: 20px;
+  width: 35rem;
+  height: 400px;
+  background-color: #fff;
+}
+
+.videos-container {
+  width: 60rem;
+}
+
+.video {
+  cursor: pointer;
+  width: 20rem;
+  /* height: 3rem; */
+  background-color: rgb(75, 75, 75);
+  margin-bottom: 20px;
+}
+
+.wiki-info {
+  margin-top: 1rem;
+  color: rgb(177, 177, 177);
+}
+
+.video-content {
+  padding: 5px;
+  display: flex;
+  gap: 10px;
+  color: rgb(185, 183, 183);
+}
+
+.video-content img {
+  width: 150px;
+  height: 100px;
+}
+
+.videos-select-container {
+  height: 30rem;
+  width: 30rem;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9cc3d1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+  transition: 0.3s;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #d1b9b9;
+}
+
+@media screen and (max-width: 1300px) {
+  .videos-select-container {
+    overflow-x: hidden;
+  }
+  .video-content h3 {
+    font-size: 1rem;
+  }
+  .video-content img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .main-container {
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .video-content img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .videos-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .videos-container p,
+  h3 {
+    width: 70%;
+    text-align: center;
+    margin: auto auto 0.6rem;
+  }
+
+  .videos-select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    margin-top: 1.5rem;
+  }
+
+  .video {
+    border: 1px solid rgb(54, 54, 54);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .videos-container p,
+  h3 {
+    width: 50%;
+    text-align: center;
+    margin: auto auto 0.6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  iframe {
+    width: 27rem;
+    height: 400px;
+  }
+} ;
