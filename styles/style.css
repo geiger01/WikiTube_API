@@ -169,4 +169,22 @@ iframe {
     width: 27rem;
     height: 400px;
   }
+   .main-container input {
+    width: 21rem;
+  }
+
+  .wiki-info {
+    width: 70%;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+  .videos-select-container {
+    width: 80%;
+  }
+  img {
+    width: 30px;
+    height: 30px;
+  }
 } ;
