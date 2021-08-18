@@ -162,9 +162,17 @@ iframe {
     text-align: center;
     margin: auto auto 0.6rem;
   }
+  
+  .videos-container{
+    width:27rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  
+   .videos-container{
+    width:22rem;
+  }
   iframe {
     width: 22rem;
     height: 400px;
