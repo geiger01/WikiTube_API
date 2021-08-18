@@ -11,7 +11,7 @@ function renderVids(vids) {
   vids.map((vid, idx) => {
     strHtml += `
 
-        <div onclick="onVideoSelect('${vid.id.videoId}','${vid.snippet.title})" class="video">
+        <div onclick="onVideoSelect('${vid.id.videoId}','${vid.snippet.title}')" class="video">
           <div class="video-content">
             <img src="${vid.snippet.thumbnails.default.url}" alt="" />
             <h3>${vid.snippet.title}</h3>
