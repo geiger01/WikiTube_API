@@ -166,7 +166,7 @@ iframe {
 
 @media screen and (max-width: 600px) {
   iframe {
-    width: 27rem;
+    width: 22rem;
     height: 400px;
   }
    .main-container input {
@@ -183,8 +183,5 @@ iframe {
   .videos-select-container {
     width: 80%;
   }
-  img {
-    width: 30px;
-    height: 30px;
-  }
+
 } ;
