@@ -1,4 +1,5 @@
 'use strict';
+const API_KEY = 'AIzaSyBBMyNo3xb6bCD-JBRvaubzgpmxcf4d5BY';
 
 function getVids(func, searchWord = '') {
   const prm = axios.get(
